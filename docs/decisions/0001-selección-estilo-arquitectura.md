@@ -1,6 +1,6 @@
 # Selección-Estilo-Arquitectura
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-05
 
 ## Context and Problem Statement
@@ -19,7 +19,23 @@ Se necesita una arquitectura de software para migrar la arquitectura de un siste
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0001-1-Arquitectura Cliente-Servidor", because tras haberlo discutido en la sesión entre los arquitectos senior (ASS) y los arquitectos cognitivos (ASC), se adapta y representa mejor las necesidades del sistema necesitado y además nos solicitan peticiones HTTP/REST las cuales son características de la arquitectura escogida.
+
+### Positive Consequences
+
+* Escalabilidad
+* Separación de responsabilidades
+* Centralización de la lógica de negocio
+* Seguridad centralizada
+* Rendimiento
+
+### Negative Consequences
+
+* Dependencia de la red
+* Punto único de fallo
+* Carga en el servidor
+* Latencia
+* Costo de escalado vertical
 
 ## Pros and Cons of the Options
 
