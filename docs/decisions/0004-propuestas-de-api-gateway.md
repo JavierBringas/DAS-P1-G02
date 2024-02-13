@@ -3,6 +3,14 @@
 * Status: proposed
 * Date: 2024-02-13
 
+## Context and Problem Statement
+
+El sistema debe de incluir un componente API Gateway que gestionará las solicitudes HTTP/REST, siendo así responsable de dirigir las solicitudes de los clientes para acceder a la lógica de negocio.
+
+## Decision Drivers
+
+* RF01-1-Acceso a la lógica de negocio por parte del cliente con un componente API Gateway
+
 ## Considered Options
 
 * 0004-1-Amazon
