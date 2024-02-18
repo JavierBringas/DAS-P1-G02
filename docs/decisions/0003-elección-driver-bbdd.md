@@ -1,6 +1,6 @@
 # Elección-driver-bbdd
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-13
 
 ## Context and Problem Statement
@@ -19,7 +19,18 @@ La otra, almacenará los datos de los clientes: identificador de cliente, nombre
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "MySQL", because en la reunión entre ASS y ASC se concluyó que al MySQL estar más estandarizado en la industria puede ser de gran beneficio para poder utilizarlo.
+
+### Positive Consequences
+
+* Estandarización
+* Buen rendimiento
+* Buena compatibilidad con productos Oracle
+
+### Negative Consequences
+
+* Caracterísitcas algo retrasadas
+* Limitación de funcionalidades en la versión gratuita
 
 ## Pros and Cons of the Options
 

@@ -1,6 +1,6 @@
 # Propuestas de API Gateway
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-13
 
 ## Context and Problem Statement
@@ -19,7 +19,22 @@ El sistema debe de incluir un componente API Gateway que gestionará las solicit
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0004-1-Amazon", because entre los ASS y los ASC se concluye que dadas sus características técnicas y buena compatibilidad es la mejor opción entre las presentadas para poder incoporar a la aplicación.
+
+### Positive Consequences
+
+* Amplio soporte
+* Buena consolidación en el mercado
+* No incluye coste de inicio
+* Funcionalidades de seguridad
+* Tiene buen soporte para monitoreo y análisis de datos
+* Puede asumir un gran volumen de llamadas simultáneas
+* Limitación en el tiempo para hacer una petición que evita que se consmuan recursos
+
+### Negative Consequences
+
+* Dependencia de un reccurso externo
+* Posibles limitaciones en compatibilidades
 
 ## Pros and Cons of the Options
 

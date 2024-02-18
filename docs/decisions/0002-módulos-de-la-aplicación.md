@@ -1,6 +1,6 @@
 # Módulos de la lógica de negocio
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-13
 
 ## Context and Problem Statement
@@ -31,7 +31,22 @@ El sistema deberá incluir un módulo de estadísticas. La funcionalidad del mó
 
 ## Decision Outcome
 
-Chosen option: ""
+Chosen option: "0002-2-Introducir 3 clases y el componente de microservicios Google Data Studio en la lógica de negocio", because tras valorarlo entre los ASS y los ASC se concluyó que las herramientas que puede aportar el componente de Google Data Studio son muy beneficiosas para el módulo de estadísticas además de que las propias características del módulo serán de mucha utilidad.
+
+### Positive Consequences
+
+* Gratuito
+* Buena capacidad de trabajo
+* Capacidad de procesar grandes volúmenes de información
+* Permite colaboración en tiempo real con usuarios
+* Compatibilidad con otras herramientas comunes de Google
+* Reduce el esfuerzo de desarrollo
+
+### Negative Consequences
+
+* Dependencia de componente externo
+* Funcionalidades avanzadas limitadas
+* Limitaciones en personalización
 
 ## Pros and Cons of the Options
 
