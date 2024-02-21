@@ -41,4 +41,4 @@ State es un patrón de diseño de comportamiento que permite a un objeto alterar
 * Good, because Principio de responsabilidad única. Organiza el código relacionado con estados particulares en clases separadas.
 * Good, because Principio de abierto/cerrado. Introduce nuevos estados sin cambiar clases de estado existentes o la clase contexto.
 * Good, because Simplifica el código del contexto eliminando voluminosos condicionales de máquina de estados.
-* Bad, because Simplifica el código del contexto eliminando voluminosos condicionales de máquina de estados.
+* Bad, because Aplicar el patrón puede resultar excesivo si una máquina de estados sólo tiene unos pocos estados o raramente cambia.
