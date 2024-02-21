@@ -1,6 +1,6 @@
 # Selección Patrón Diseño Algoritmo de Optimización en reparto
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-20
 
 ## Context and Problem Statement
@@ -18,7 +18,7 @@ El sistema deberá elegir entre 2 algoritmos de optimización para el reparto, c
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0007-1-Patrón de Diseño Strategy", because Este enfoque permite que la selección del algoritmo de optimización sea dinámica y pueda cambiar en tiempo de ejecución, proporcionando flexibilidad y extensibilidad al sistema. Por lo tanto, el patrón Strategy sería adecuado para manejar esta situación en la que se seleccionan diferentes algoritmos de optimización en función de ciertas condiciones.
 
 ## Pros and Cons of the Options
 

@@ -1,6 +1,6 @@
 # Selección-patrón-diseño-módulos-reparto-y-rutas
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-20
 
 ## Context and Problem Statement
@@ -17,7 +17,7 @@ El módulo de Reparto y Rutas debe de desacoplar su funcionalidad debido a la ca
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0006-1-Patrón de diseño Bridge", because el patrón Bridge es el que mejor se adapta a nuestro problema y mejor lo resuelve. Sería útil para desacoplar la funcionalidad de gestión del reparto y rutas, permitiendo flexibilidad y facilitando futuras modificaciones o extensiones en el sistema.
 
 ## Pros and Cons of the Options
 

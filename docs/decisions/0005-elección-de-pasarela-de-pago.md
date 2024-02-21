@@ -1,6 +1,6 @@
 # Elección de pasarela de pago
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-20
 
 ## Context and Problem Statement
@@ -15,10 +15,11 @@ El módulo de Gestión de Pedidos debe de contar con una funcionalidad que permi
 
 * 0005-1-TPV Virtual Redsys
 * 0005-2-TPV Virtual PayPal
+* 0005-3-TPV Virtual MONEI
 
 ## Decision Outcome
 
-Chosen option: ""
+Chosen option: "0005-3-TPV Virtual MONEI", because Permite una mayor cantidad de caracerisiticas y recursos frente a sus competidores. La seguridad es puntera y el abanico de metodos de pago es mucho mayor al resto. Soporte competente y activo.
 
 ## Pros and Cons of the Options
 
@@ -45,3 +46,15 @@ El TPV virtual PayPal actúa como pasarela de pago online. Su principal labor es
 * Bad, because Retención de fondos: PayPal a veces retiene fondos en cuentas de comerciantes durante ciertos períodos, lo que puede afectar la liquidez.
 * Bad, because Proceso de resolución de disputas: El proceso de resolución de disputas puede ser complicado y llevar tiempo, especialmente para los comerciantes.
 * Bad, because Menores capacidades: debido a que Redsys ofrece realizar operaciones mediante PayPal, pdríamos deducir que Redsys integra muchas más opciones y es mucho más amplio que Paypal.
+
+### 0005-3-TPV Virtual MONEI
+
+MONEI es una solución de TPV virtual que facilita a los comercios la aceptación de pagos en línea. Proporciona una variedad de herramientas y características diseñadas para mejorar la experiencia del cliente y simplificar el proceso de pago.
+
+* Good, because Pasarela de Pago Segura: MONEI proporciona una pasarela de pago segura que cumple con los estándares de seguridad PCI-DSS, lo que garantiza que los datos de los clientes estén protegidos durante las transacciones en línea.
+* Good, because Integración Sencilla: Ofrece integraciones fáciles con plataformas de comercio electrónico populares y sistemas de gestión empresarial, lo que permite a los comercios comenzar a aceptar pagos en línea rápidamente.
+* Good, because Múltiples Métodos de Pago: MONEI admite una variedad de métodos de pago, incluyendo tarjetas de crédito y débito, transferencias bancarias, billeteras electrónicas y otros métodos de pago alternativos.
+* Good, because Análisis y Reporting: Proporciona herramientas de análisis y reporting que permiten a los comercios realizar un seguimiento de las transacciones, analizar el rendimiento y tomar decisiones informadas para optimizar su negocio.
+* Bad, because Costos: MONEI puede implicar costos adicionales, como tarifas de transacción y tarifas de servicio, lo que puede afectar la rentabilidad para algunos comercios, especialmente para aquellos con volúmenes de transacción más bajos.
+* Bad, because Competencia: En un mercado competitivo, MONEI compite con otras soluciones de TPV virtual, lo que significa que los comercios deben evaluar cuidadosamente las características, costos y reputación del proveedor antes de tomar una decisión.
+* Bad, because Dependencia del Proveedor: Al utilizar un servicio de TPV virtual como MONEI, los comercios pueden volverse dependientes del proveedor para procesar sus transacciones en línea, lo que podría plantear riesgos en caso de interrupciones del servicio o cambios en las políticas del proveedor.
