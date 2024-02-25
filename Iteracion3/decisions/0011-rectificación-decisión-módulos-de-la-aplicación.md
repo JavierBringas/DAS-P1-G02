@@ -21,7 +21,7 @@ Se va a volver a decidir el diseño respecto a los módulos de la aplicación pa
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0011-1-Introducir 3 clases y el componente de microservicios Amazon QuickSight en la lógica de negocio", because tenemos la certeza que está cconstruida construido como microservicios y nos permite una buena integración así como contar con unas buenas herramientas para el manejo de estadísticas.
 
 ## Pros and Cons of the Options
 

@@ -5,7 +5,7 @@
 
 ## Context and Problem Statement
 
-Tras meditarlo y revisarlo bien se observa que la decisión se tomó de forma errónea ya no hay garantías de que Google Data Studio ofrezca soporte para sistemas basados en microservicios.
+Tras meditarlo y revisarlo bien se observa que la decisión se tomó de forma errónea ya no hay certezas de que Google Data Studio esté construido como microservicios.
 
 ## Decision Drivers
 
