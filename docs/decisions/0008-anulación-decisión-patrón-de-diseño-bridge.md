@@ -1,6 +1,6 @@
 # Anulación decisión patrón de diseño Bridge
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-22
 
 ## Context and Problem Statement

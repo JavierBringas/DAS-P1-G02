@@ -1,6 +1,6 @@
 # Rectificación Decisión Módulos de la Aplicación
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-23
 
 ## Context and Problem Statement
