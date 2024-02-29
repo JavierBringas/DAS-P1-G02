@@ -1,6 +1,6 @@
 # Opciones de gestión de incidencias
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-28
 
 ## Context and Problem Statement
@@ -18,7 +18,7 @@ Durante la gestión de los repartos, se debe de alertar al sistema sobre las inc
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0013-1-Introducirlo como atributo", because Hemos decidido introducir las incidencias como un atributo de la clase Reparto porque pueden ser representadas fácilmente como un enumerado y no requieren una funcionalidad compleja detrás. Además, crear una clase separada para manejarlas sería innecesario y podría agregar complejidad innecesaria al diseño. Esto simplifica la estructura de nuestro modelo de datos y hace que la implementación sea más directa y fácil de entender.
 
 ## Pros and Cons of the Options
 

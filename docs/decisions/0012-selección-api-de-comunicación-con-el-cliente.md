@@ -1,13 +1,11 @@
 # Selección API de comunicación con el cliente
 
-* Status: proposed
+* Status: accepted
 * Date: 2024-02-28
 
 ## Context and Problem Statement
 
-Por otra parte, pensando en futuras ampliaciones, se pretende que el elemento reparto y rutas
-pueda notificar a los clientes el estado de su pedido vía mensajes al teléfono móvil y otros
-posibles canales de comunicación como Instagram.
+Por otra parte, pensando en futuras ampliaciones, se pretende que el elemento reparto y rutas pueda notificar a los clientes el estado de su pedido vía mensajes al teléfono móvil y otros posibles canales de comunicación como Instagram.
 
 ## Decision Drivers
 
@@ -20,7 +18,7 @@ posibles canales de comunicación como Instagram.
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "0012-1-Twilio", because La elección de Twilio como proveedor de servicios de comunicación se justifica por su amplia estandarización, soporte y capacidad para utilizar múltiples plataformas, como WhatsApp y Facebook Messenger. Su reputación establecida y documentación sólida aseguran una integración rápida y eficiente, lo que nos permite ofrecer un servicio de notificación versátil y confiable a nuestros clientes.
 
 ## Pros and Cons of the Options
 
