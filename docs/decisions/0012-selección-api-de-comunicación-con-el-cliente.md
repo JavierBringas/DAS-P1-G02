@@ -1,4 +1,4 @@
-# Selección API de comunicación con el cliente
+# Selección componente de comunicación con el cliente
 
 * Status: accepted
 * Date: 2024-02-28
@@ -19,6 +19,7 @@ Por otra parte, pensando en futuras ampliaciones, se pretende que el elemento re
 ## Decision Outcome
 
 Chosen option: "0012-1-Twilio", because La elección de Twilio como proveedor de servicios de comunicación se justifica por su amplia estandarización, soporte y capacidad para utilizar múltiples plataformas, como WhatsApp y Facebook Messenger. Su reputación establecida y documentación sólida aseguran una integración rápida y eficiente, lo que nos permite ofrecer un servicio de notificación versátil y confiable a nuestros clientes.
+Esta decision conlleva a que sea introducido como componente dentro de un paquete de comunicaciones con una alta prioridad en la arquitectura.
 
 ## Pros and Cons of the Options
 
