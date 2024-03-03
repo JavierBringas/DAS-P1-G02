@@ -19,7 +19,7 @@ La nueva arquitectura debe contar con los elementos software adecuados para ejec
 ## Decision Outcome
 
 Chosen option: "0014-2-AWS Fargate", because Al seleccionar AWS Fargate para nuestra arquitectura, podemos aprovechar su simplicidad, integración nativa con AWS, escalabilidad automática y seguridad inherente para ejecutar y gestionar nuestros microservicios de manera eficiente y confiable. La facilidad de uso de Fargate nos permite centrarnos en el desarrollo de microservicios y en la visualización de datos con QuickSight, sin preocuparnos por la administración de la infraestructura subyacente. En última instancia, la elección de Fargate nos garantiza una infraestructura robusta y altamente disponible para admitir nuestras necesidades de análisis de datos con Amazon QuickSight.
-En nuestra arquitectura existente, AWS Fargate se integra como un paquete sirviendo como la base fundamental debajo de toda la infraestructura.
+En nuestra arquitectura existente, AWS Fargate se integra como un paquete sirviendo como la base fundamental debajo de toda la infraestructura. Por debajo de esta base, se encuentra el paquete de comunicaciones, representado por Twilio, que se utiliza para gestionar las comunicaciones de la aplicación.
 
 ## Pros and Cons of the Options
 
